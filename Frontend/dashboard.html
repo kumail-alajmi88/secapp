@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Action Form</title>
+</head>
+<body>
+  <h2>Buy / Sell Form</h2>
+  <form action="http://localhost:3000/api/action" method="POST">
+    <input name="item" placeholder="Item" required><br>
+    <select name="type">
+      <option value="buy">Buy</option>
+      <option value="sell">Sell</option>
+    </select><br>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
